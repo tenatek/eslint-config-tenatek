@@ -5,6 +5,9 @@
   "scripts": {
     "bump": "npm version -m \"v%s\""
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "devDependencies": {
     "eslint": "^7.4.0"
   },

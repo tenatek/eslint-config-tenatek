@@ -1,0 +1,11 @@
+{
+  "name": "eslint-config-tenatek",
+  "version": "0.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^6.2.2"
+  },
+  "peerDependencies": {
+    "eslint": ">=4.19.1"
+  }
+}

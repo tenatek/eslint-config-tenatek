@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tenatek",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "bump": "npm version -m \"v%s\""

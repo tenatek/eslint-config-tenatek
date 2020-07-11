@@ -2,6 +2,9 @@
   "name": "eslint-config-tenatek",
   "version": "0.0.0",
   "main": "index.js",
+  "scripts": {
+    "bump": "npm version -m \"v%s\""
+  },
   "devDependencies": {
     "eslint": "^7.4.0"
   },

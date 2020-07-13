@@ -128,14 +128,8 @@ const stylisticIssues = {
   'indent': ['error', 2],
   'key-spacing': ['error'],
   'linebreak-style': ['error', 'unix'],
-  'lines-between-class-members': ['error', 'always'],
-  'max-len': [
-    'error', {
-      code: 80,
-      comments: 80,
-      ignoreRegExpLiterals: true
-    }
-  ],
+  'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
+  'max-len': ['error', { code: 100, comments: 100, ignoreRegExpLiterals: true }],
   'max-statements-per-line': ['error', { max: 1 }],
   'multiline-comment-style': ['error', 'starred-block'],
   'new-parens': 'error',
